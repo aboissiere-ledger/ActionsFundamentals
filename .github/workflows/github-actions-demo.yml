@@ -24,7 +24,7 @@ jobs:
       - name: List Files
         run: |
           echo "${{github.repository}}" contains:"
-          ls -al
+          tree
 
 
         
