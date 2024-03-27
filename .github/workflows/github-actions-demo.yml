@@ -23,7 +23,7 @@ jobs:
 
       - name: List Files
         run: |
-          echo "${{github.repository}}" contains:"
+          echo "${{github.repository}} contains:"
           tree
 
       
